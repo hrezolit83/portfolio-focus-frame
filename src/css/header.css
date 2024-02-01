@@ -101,10 +101,12 @@
 .navigation-btn-icon {
     stroke: #121212;
 }
+
 .navigation-btn-icon:hover,
 .navigation-btn-icon:focus {
     stroke: #fff;
 }
+
 .navigation-list {
     display: flex;
     gap: 20px;
@@ -136,9 +138,7 @@
     
 }
 @media screen and (min-width: 768px) {
-    /*.header {
-        padding-bottom: 40px;
-    }*/
+    
     .header-container {
         max-width: 768px;
         display: flex;
@@ -148,10 +148,7 @@
         padding: 0 32px;
         
     }
-    /*.header-container {
-        display: flex;
-        flex-direction: row;
-    }*/
+    
     .header-link-wrap {
         max-width: 504px;
         padding: 16px 20px;
@@ -212,9 +209,7 @@
     }
 }
 @media screen and (min-width: 1280px) {
-    /*.header {
-        padding-bottom: 80px;
-    }*/
+   
     .header-container {
         max-width: 1280px;
         padding: 0 100px;  
@@ -247,15 +242,3 @@
         padding: 16px 84px;
     }  
 }
-/*@media screen and (min-width: 1440px) {
-    .header-container {
-        max-width: 1440px;
-        gap: 20px;
-    }
-    .header-link-wrap {
-        max-width: 981px;
-    }
-    .header-list {
-        gap: 40px;
-    }
-}*/
